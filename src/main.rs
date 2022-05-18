@@ -1,3 +1,5 @@
+extern crate modes;
+
 fn main() {
-    println!("Hello, world!");
+    modes::get_mode();
 }
