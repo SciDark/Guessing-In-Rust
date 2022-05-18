@@ -1,5 +1,5 @@
 extern crate modes;
 
 fn main() {
-    modes::get_mode();
+    println!("{}", modes::get_mode());
 }
